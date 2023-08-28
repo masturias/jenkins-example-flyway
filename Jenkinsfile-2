@@ -1,7 +1,7 @@
 pipeline {
   agent any 
   environment {
-    DB_CREDS=credentials('MySql')
+    DB_CREDS=credentials('MySql1')
   }
   stages {
     stage('Verify version') {
