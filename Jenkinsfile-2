@@ -1,7 +1,7 @@
 pipeline {
   agent any 
   environment {
-    DB_CREDS=credentials('MySql1')
+    DB_CREDS=credentials('APIMANAGERQA')
   }
   stages {
     stage('Verify version') {
